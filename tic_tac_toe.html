@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tic tac toe</title>
+    <link rel="stylesheet" href="./tic_tac_toe.css">
+    <script src="./tic_tac_toe.js"></script>
+  </head>
+  <body>
+    <h1>Tic Tac Toe</h1>
+    <p>Game start by just tap on the box</p>
+    <p>
+      Player 1 = x <br />and <br />
+      Player 2 = 0
+    </p>
+
+    <div id="f">
+      <input
+        type="text"
+        value=""
+        onclick=" myfunc1();myfunc();"
+        id="b1"
+        readonly
+      />
+      <input
+        type="text"
+        value=""
+        onclick="myfunc2();myfunc();"
+        id="b2"
+        readonly
+      />
+      <input
+        type="text"
+        value=""
+        onclick="myfunc3();myfunc();"
+        id="b3"
+        readonly
+      /><br />
+      <input
+        type="text"
+        value=""
+        onclick="myfunc4();myfunc()"
+        id="b4"
+        readonly
+      />
+      <input
+        type="text"
+        value=""
+        onclick="myfunc5(),myfunc()"
+        id="b5"
+        readonly
+      />
+      <input
+        type="text"
+        value=""
+        onclick="myfunc6(),myfunc()"
+        id="b6"
+        readonly
+      /><br />
+      <input
+        type="text"
+        value=""
+        onclick="myfunc7(),myfunc()"
+        id="b7"
+        readonly
+      />
+      <input
+        type="text"
+        value=""
+        onclick="myfunc8(),myfunc()"
+        id="b8"
+        readonly
+      />
+      <input
+        type="text"
+        value=""
+        onclick="myfunc9(),myfunc()"
+        id="b9"
+        readonly
+      />
+    </div>
+    <p id="p"></p>
+    <input type="button" value="next" onclick="next()" id="b" readonly />
+    <input type="button" value="restart" onclick="window.location.reload()" id="b" readonly />
+
+    <div>
+        <table style="border:1px solid white">
+            <tr>
+                <th>Player 1</th>
+                <th>PLayer 2</th>
+            </tr>
+            <tr>
+                <td><input type="button" id="p1" value="0"></td>
+                <td><input type="button" id="p2" value="0"></td>
+            </tr>
+        </table>
+    </div>
+  
+  </body>
+</html>
